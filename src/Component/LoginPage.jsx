@@ -18,6 +18,7 @@ const useStyles =makeStyles(() =>({
 function LoginPage({Login}) {
 
  const [state, setstate] = useState({email:"", password:""})
+ 
  const submitHandler= (e) => {
        e.preventDefault();
        Login(state)
@@ -57,7 +58,7 @@ function LoginPage({Login}) {
       <br/>
         
         <Button color="primary" variant="contained"  type="submit">
-          Login In
+          Login 
         </Button>
         <br />
       
